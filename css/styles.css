@@ -1,3 +1,107 @@
-h1 {
-    color: red
+html {
+    font-family: Helvetica;
+    background-color: #ddd;
 }
+
+.container {
+    max-width: 1100px;
+    background-color: #fff;
+    position: relative;
+    margin: 50px auto;
+    padding: 20px 50px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+/* Header */
+.header {
+    text-align: center;
+
+}
+
+.main-title {
+    font-size: 40px;
+
+}
+
+.main-paragraph {
+    font-style: italic;
+
+}
+
+
+.featured-image {
+    width: 100%; /* Garante que a largura da div seja igual à largura do seu contêiner pai */
+    text-align: center; /* Centraliza o conteúdo horizontalmente */
+}
+
+.featured-image figure {
+    margin: 0; /* Remove margens padrão que podem interferir no alinhamento */
+}
+
+.featured-image img {
+    max-width: 900px; /* Limita a largura máxima da imagem */
+    width: 100%; /* Garante que a imagem ocupe 100% da largura disponível */
+    height: auto; /* Mantém a proporção da imagem */
+    display: inline-block; /* Permite o alinhamento horizontal */
+}
+
+/*Biography */
+
+.biography-container {
+    padding: 25px 0;
+    margin: 25px 0;
+    border-top: 1px dashed #ddd;
+    border-bottom: 1px dashed #ddd;
+
+}
+
+.img-bold img {
+    max-width: 900px;
+    height: auto; 
+    text-align: center;
+    margin-top: 30px;
+    
+}
+
+/* quotes */
+
+.quotes-container {
+    background-color: #ddd;
+    padding: 30px;
+}
+
+.quotes-container blockquote {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.quotes-container p {
+    font-style: italic;
+
+}
+
+/* Curiosities */
+
+.curiosities-container {
+    padding: 25px;
+    margin: 25px;
+    border-top: 1px dhased #ddd;
+    border-bottom: 1px dhased #ddd;
+}
+
+.curiosities-container li{
+    height: 30px;
+
+}
+
+/* Bold Image */
+
+.img-bold {
+    font-weight: bold;
+    text-align: center;
+}
+
+
